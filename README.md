@@ -10,9 +10,9 @@ ShapeShift is a typing game that utilizes Canvas and a random word generator. Th
 
 
 ## Wireframes
+![](https://raw.githubusercontent.com/edmundho/ShapeShift/master/shape_shift_wireframe1.png)
 
-
-Fullscreen with a dark background. Shape colors will be vaporwave aesthetic/outrun inspired.
+Fullscreen with a dark background and colorful shapes. 
 
 ## Architecture & Technologies
 
@@ -20,20 +20,21 @@ Fullscreen with a dark background. Shape colors will be vaporwave aesthetic/outr
 * `HTML5 Canvas` for DOM manipulation and rendering,
 * `random-words`: Random word generator library
 * `Webpack` to bundle and serve up the various scripts.
+* `keymaster.js`: for mapping keyboard inputs
 
 ### Scripts to be used:
 * `keybindings.js`: maps keyboard presses to inputs for the game
 * `board.js`: handles creating and updating DOM elements (shapes)
 * `shape.js`: handles creation of shapes with Canvas
-* `game.js`: 
+* `game.js`: handles game logic like scoring, shape growth
 
 ## Implementation Timeline
 
-__Day 1:__ Get overall file structure set up. Webpack & node setup. Implement Shape generator with Canvas. Triangles, circles, squares. Shape animations.
+__Day 1:__ Get overall file structure set up. Webpack & node setup. Draw shapes/implement shape generator with Canvas. Start with circles first, and add other shapes down the line.
 
-__Day 2:__ Build out game logic such as scoring, increasing difficulty as the game progresses, stats tracking (wpm, accuracy).
+__Day 2:__ Build out game logic such as scoring, shape animations, increasing difficulty as the game progresses, stats tracking (wpm, accuracy).
 
-__Day 3:__ Construct game board and connect game logic with shape elements.
+__Day 3:__ Construct game board and connect game logic with shape elements. Implement difficulty setting.
 
-__Day 4:__ Styling. Game will be simple so its aesthetics will be a crucial in its success/enjoyability.
+__Day 4:__ Styling. Game will be simple so its aesthetics will be crucial in its success/enjoyability.
 
