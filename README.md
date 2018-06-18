@@ -10,7 +10,7 @@ ShapeShift is a typing game that utilizes Canvas and a random word generator. Th
 
 
 ## Wireframes
-![](https://raw.githubusercontent.com/edmundho/ShapeShift/master/shape_shift_wireframe1.png)
+![](https://raw.githubusercontent.com/edmundho/ShapeShift/master/docs/shape_shift_wireframe1.png)
 
 Fullscreen with a dark background and colorful shapes. 
 
