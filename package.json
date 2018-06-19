@@ -1,0 +1,30 @@
+{
+  "name": "JSP",
+  "version": "1.0.0",
+  "description": "#",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "keymaster": "^1.6.2",
+    "random-words": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch lib/typing_game.js -o lib/bundle.js --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edmundho/ShapeShift.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edmundho/ShapeShift/issues"
+  },
+  "homepage": "https://github.com/edmundho/ShapeShift#readme"
+}
