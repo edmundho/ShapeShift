@@ -1,5 +1,6 @@
 body {
-  background: #1e2127;
+  background: rgb(31, 34, 40);
+  background: rgb(40, 40, 40);
   background: #ca3267;
   background: #64e4f6;
   background: #646496;
@@ -15,6 +16,7 @@ body {
   background: #82555f;
   background: #6496a0;
   background: #2f4f4f;
-  background: #000000;
+  background: rgb(0, 0, 0);
+  background: rgb(25, 25, 25);
   background: red
 }
