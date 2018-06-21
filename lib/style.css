@@ -1,6 +1,6 @@
 body {
   background: rgb(31, 34, 40);
-  background: rgb(40, 40, 40);
+  background: #282828;
   background: #ca3267;
   background: #64e4f6;
   background: #646496;
@@ -17,6 +17,6 @@ body {
   background: #6496a0;
   background: #2f4f4f;
   background: rgb(0, 0, 0);
-  background: rgb(25, 25, 25);
+  background: #191919;
   background: red
 }

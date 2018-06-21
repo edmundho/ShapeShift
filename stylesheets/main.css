@@ -1,0 +1,29 @@
+.hidden {
+  display: none;
+}
+
+#start-button, #restart-button {
+  padding: 15px;
+  width: 200px;
+  background: whitesmoke;
+  color: darkslategray;
+  position: absolute;
+  z-index: 99;
+  top: calc(50% + 75px);
+  left: calc(50% - 100px);
+  text-align: center;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: Helvetica Neue;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#start-button:hover, #restart-button:hover {
+  background: darkslategray;
+  color: whitesmoke;
+}
+
+#canvas {
+  position: relative;
+}
