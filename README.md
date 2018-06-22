@@ -31,7 +31,7 @@ If the shape's word is the current word being typed, pass in the letters being t
 
 * ### +1 and -1 animations for each point scored and each life lost.
 
-![]()
+![](https://raw.githubusercontent.com/edmundho/ShapeShift/master/docs/shapeshift_demo.gif)
 
 ```javascript
 drawPointAnimation () {
