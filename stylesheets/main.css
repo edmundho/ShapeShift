@@ -32,16 +32,19 @@
 
 #easy-button {
   top: calc(50% + 75px);
+  /* bottom: 275px; */
   left: calc(50% - 115px);
 }
 
 #medium-button {
   top: calc(50% + 150px);
+  /* bottom: 200px; */
   left: calc(50% - 115px);
 }
 
 #hard-button {
   top: calc(50% + 225px);
+  /* bottom: 125px; */
   left: calc(50% - 115px);
 }
 
