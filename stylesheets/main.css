@@ -1,16 +1,12 @@
-.hidden {
-  display: none;
-}
 
-#restart-button {
+
+#restart-button, #easy-button, #medium-button, #hard-button {
   padding: 15px;
   width: 200px;
   background: whitesmoke;
   color: darkslategray;
   position: absolute;
   z-index: 99;
-  top: calc(50% + 75px);
-  left: calc(50% - 100px);
   text-align: center;
   border-radius: 5px;
   font-size: 25px;
@@ -19,8 +15,9 @@
   letter-spacing: 1px;
 }
 
-#start-button:hover, #restart-button:hover, #easy-button:hover, #medium-button:hover, #hard-button:hover {
+#restart-button:hover, #easy-button:hover, #medium-button:hover, #hard-button:hover {
   background: darkslategray;
+  background: steelblue;
   color: whitesmoke;
 }
 
@@ -28,53 +25,52 @@
   position: relative;
 }
 
+#restart-button {
+  top: calc(50% + 110px);
+  left: calc(50% - 115px);
+}
+
 #easy-button {
-  padding: 15px;
-  width: 200px;
-  background: whitesmoke;
-  color: darkslategray;
-  position: absolute;
-  z-index: 99;
-  top: calc(50%);
-  left: calc(50% - 100px);
-  text-align: center;
-  border-radius: 5px;
-  font-size: 25px;
-  font-family: Helvetica Neue;
-  font-weight: 300;
-  letter-spacing: 1px;
+  top: calc(50% + 75px);
+  left: calc(50% - 115px);
 }
 
 #medium-button {
-  padding: 15px;
-  width: 200px;
-  background: whitesmoke;
-  color: darkslategray;
-  position: absolute;
-  z-index: 99;
-  top: calc(50% + 75px);
-  left: calc(50% - 100px);
-  text-align: center;
-  border-radius: 5px;
-  font-size: 25px;
-  font-family: Helvetica Neue;
-  font-weight: 300;
-  letter-spacing: 1px;
+  top: calc(50% + 150px);
+  left: calc(50% - 115px);
 }
 
 #hard-button {
-  padding: 15px;
-  width: 200px;
-  background: whitesmoke;
-  color: darkslategray;
+  top: calc(50% + 225px);
+  left: calc(50% - 115px);
+}
+
+#author-info {
+  display: flex;
   position: absolute;
-  z-index: 99;
-  top: calc(50% + 150px);
-  left: calc(50% - 100px);
-  text-align: center;
-  border-radius: 5px;
-  font-size: 25px;
+  border-radius: 3px;
+  left: calc(50% - 105px);
+  bottom: 30px;
+  background: rgb(40, 40, 40);
+  color: steelblue;
+  align-items: center;
+}
+
+#author-info a {
+  padding: 15px;
+  font-size: 22px;
+  width: 75px;
   font-family: Helvetica Neue;
   font-weight: 300;
+  text-align: center;
   letter-spacing: 1px;
+}
+
+#author-info a:hover {
+  color: mediumseagreen;
+  background: rgb(60, 60, 60);
+}
+
+.hidden {
+  display: none !important;
 }
