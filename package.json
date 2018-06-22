@@ -8,7 +8,6 @@
     "lib": "lib"
   },
   "dependencies": {
-    "keymaster": "^1.6.2",
     "random-words": "^1.1.0"
   },
   "devDependencies": {},
