@@ -60,5 +60,6 @@ drawPointAnimation () {
 ```
 
 ## Future Plans
-* Implement music/sound effects
+* ~~Implement music/sound effects/mute functionality~~ 
+* Implement 'pause/resume' functionality
 * Implement a simple backend to keep track of high scores for each difficulty setting.
