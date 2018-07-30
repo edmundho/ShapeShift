@@ -1,4 +1,6 @@
-
+.hidden {
+  display: none !important;
+}
 
 #restart-button, #easy-button, #medium-button, #hard-button {
   padding: 15px;
@@ -71,10 +73,16 @@
   background: rgb(60, 60, 60);
 }
 
-.hidden {
-  display: none !important;
-}
-
 #pregame-bg {
   display: none;
 }
+
+#audio-buttons {
+  display: flex;
+  position: absolute;
+  bottom: 25px;
+  color: white;
+  right: 25px;
+  font-size: 30px;
+}
+

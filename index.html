@@ -23,6 +23,8 @@
   <!-- <script type="application/javascript" src="lib/bundle.js"></script> -->
 </head>
 <body>
+
+  <!-- Pregame -->
   <img id="pregame-bg" src="docs/pregame-bg.png" alt="shapeshift">
   
   <button id="easy-button" class="game-buttons">Take it easy</button>
@@ -34,15 +36,28 @@
   <canvas id="canvas">
   </canvas>
 
-  <audio src="sounds/bg_song.mp3" id="bg-music"></audio>
-  <audio src="sounds/ding.wav" id="score-point-sound"></audio>
-  <audio src="sounds/fart.wav" id="lose-life-sound"></audio>
+  <!-- Audio -->
+  <div id="sounds">
+    <audio src="sounds/bg_song.mp3" id="bg-music"></audio>
+    <audio src="sounds/ding.wav" id="score-point-sound"></audio>
+    <audio src="sounds/fart.wav" id="lose-life-sound"></audio>
+  </div>
 
+  <div id="audio-buttons" class="hidden">
+    <button id="mute-button"><i class="fas fa-volume-off"></i></button>
+    <!-- <button id="unmute-button"><i class="fas fa-volume-up"></i></button> -->
+  </div>
+
+  <!-- Gameplay -->
+
+  <!-- Postgame -->
   <div id='author-info'>
     <a target='_blank' href="https://github.com/edmundho/ShapeShift"><i class="fab fa-github"></i></a>
     <a target='_blank' href="https://www.linkedin.com/in/edmundho9/"><i class="fab fa-linkedin"></i></a>
     <a target='_blank' href="http://www.edmundho.com/"><i class="fas fa-home"></i></a>
   </div>
+
+
   <script type="application/javascript" src="lib/bundle.js"></script>
 
 </body>
